@@ -20,7 +20,7 @@ function onRequest(request, response) {
     } else {
     console.log("User on page");
     response.writeHead(200, {"Context-Type": "text/html"});
-    var myReadStream = fs.createReadStream("Pause.html");
+    var myReadStream = fs.createReadStream("index.html");
     myReadStream.pipe(response);
     }
     
