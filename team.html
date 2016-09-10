@@ -18,37 +18,10 @@
         
         <style type = "text/css">
             
-            
-            #quote {
-                position:absolute;
-                left: 270px;
-                top: 300px;
-            }
-            
-            #button {
-                position:absolute;
-                top: 440px;
-                left: 180px;
-                
-            }
-            
             #memberList{
                 position: absolute;
                 left: 100px;
                 top: 500px;
-            }
-            
-            #download{
-                position:absolute;
-                top:860px;
-                left: 500px;
-            }
-            
-            #title{
-                position:absolute;
-                left: 300px;
-                font-family: fantasy;
-                font-size: 200px;
             }
             
             #memberList2{
@@ -56,6 +29,8 @@
                 left: 300px;
                 top: 500px;
             }
+            
+            
             
             
         </style>
@@ -68,45 +43,53 @@
     
     <body>
         
-        
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html">Pause</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="team.html">Team</a></li>
+                    <li class ="active"><a href="team.html">Team</a></li>
                 </ul>
             </div>
         </nav>
         
-        <a href="pictures/yuan.jpg" download>
-            <img id="button" src="pictures/button.jpg" class="img-rounded" width="800" height="400">
-        
-        </a>
-        
-        
-        
-        <p class="h1" id="title">Pause</p>
-        
-        
-        
-        <blockquote class="blockquote" id="quote">
-          <p class="m-b-0">I believe your atmosphere and your surroundings create a mind
-            state for you.</p>
-          <footer class="blockquote-footer"><cite title="Source Title">Theophilus London</cite></footer>
-        </blockquote>
-        
-        <a id="download">Click Icon To Download</a>
-        
-       
-        <script>
+        <ul class="list-group" id ="memberList">
+            <p class="h3">Team:</p>
+            
+            <li class="list-group-item">
+                <img src="pictures/andrew.jpg" class="img-rounded" width="200" height="200">
+                <p id="h3">wangandr@seas.upenn.edu</p>
+            </li>
             
             
+            <li class="list-group-item">
+                 <img src="pictures/yuan.jpg" class="img-rounded" width="210" height="200">
+            
+                <p id="h3">yuankong@sas.upenn.edu</p>
+            </li>
+            
+            
+
+            
+        </ul>
         
-        </script>
+        
+        <ul class="list-group" id ="memberList2">
+            <li class="list-group-item">
+                    <img src="pictures/matt.jpg" class="img-rounded" width="250" height="200">
+                </li>
+
+
+                <li class="list-group-item">
+                     <img src="pictures/max.jpg" class="img-rounded" width="210" height="200">
+
+                </li>
+
+        
+        </ul>
     
     </body>
 
